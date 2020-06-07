@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int arr[5],i;
+	cout<<"Enter the 5 array elements:";
+	for(i=1 ; i<=5 ; i++)
+	{
+		cout<<" Enter the array element at position "<<i<<": ";
+		cin>>arr[i];
+	}
+	cout<<"The entered array elements are : ";
+		for(i=1 ; i<=5 ; i++)
+	{
+		cout<<arr[i]<<"\n";
+	}
+}
